@@ -4,12 +4,20 @@ body {
     color: #434455;
 }
 
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+}
 a {
     text-decoration: none;
 }
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .logo {
@@ -138,7 +146,7 @@ ul {
 }
 
 
-.ul-title,
-.text {
+.ul-title {
     background-color: #FFFFFF;
 }
+
