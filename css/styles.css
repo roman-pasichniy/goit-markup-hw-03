@@ -11,6 +11,11 @@ p,
 ul {
     margin: 0;
 }
+
+.container {
+    width: 1158px;
+}
+
 a {
     text-decoration: none;
 }
