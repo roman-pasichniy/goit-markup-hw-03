@@ -201,7 +201,8 @@ ul {
 }
 
 .section-two,
-.section-three {
+.section-three,
+.section-four {
     padding: 120px 0;
 }
 
@@ -219,7 +220,8 @@ ul {
 
 }
 
-.section-three-title {
+.section-three-title,
+.section-four-title {
     margin-bottom: 72px;
 }
 
@@ -244,6 +246,27 @@ ul {
 
 .employee .text {
     text-align: center;
+}
+
+.section-four-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.section-four-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.application {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.application .ul-title {
+    margin-bottom: 8px;
 }
 
 .ul-title {
